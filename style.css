@@ -11,8 +11,12 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 2% 2%;
-    background-color: rgba(63, 63,149,1);
+    padding: 1% 1%;
+    background-color: rgba(156,153,176,1);
+}
+
+nav img {
+    width: 15%;
 }
 
 .right-nav {
@@ -30,7 +34,7 @@ nav {
 
 .right-nav a {
     text-decoration: none;
-    color: rgba(255,255,255,1);
+    color: rgba(63, 63,149,1);
 }
 
 .right-nav p {
@@ -39,9 +43,10 @@ nav {
 
 /* HERO SECTION */
 .hero-section {
-    background-color: rgba(156,153,176,1);
+    background-color: rgba(63, 63,149,1);
     padding: 10% 10%;
     display: flex;
+    align-items: center;
 }
 
 .left-hero {
@@ -55,7 +60,7 @@ nav {
 
 .hero-head {
     /* this color though...*/
-    color: rgba(63, 63,149,1);
+    color: rgba(255,255,255,1);
     font-size: 300%;
 }
 
@@ -71,4 +76,14 @@ nav {
     margin-left: 5%;
     background: none;
     color: white;
+}
+
+.right-hero {
+    width: 50%;
+}
+
+.right-hero img {
+    width: 120%;
+    background-color: rgba(63, 63,149,0.3);
+    background-blend-mode:darken;
 }
